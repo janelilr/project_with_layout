@@ -1,0 +1,173 @@
+body{
+    margin-top: 40px;
+    font-size: 125%;
+    font-family: 'Source Serif Pro',serif;
+}
+
+body.home {
+  background-image: url("../images/coconut_tree.png");
+  background-size: cover;
+}
+#main{
+  background: white;
+  text-align: center;
+}
+#footer{
+  background: white;
+  font-size: 75%;
+}
+
+a.skipcontent{
+  padding:5px;
+	text-decoration: none;
+	position: relative;
+    top: -80px;
+    transition: top ease-in 2s;
+}
+/*from Colleen's starter layout css*/
+
+a.skipcontent:focus{
+	background: white;
+	top: -20px;
+	border: 1px solid black;
+}
+/*from Colleen's starter layout css*/
+
+
+h1#FilipinoFood{
+          color: white;
+          padding-top: 15px;
+          padding-bottom: 15px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%
+}
+/*Learned how to center images from w3schools.com*/
+
+.current{
+        text-transform: uppercase;
+        color: black;
+        border: 1px solid black;
+        background: white;
+}
+/*for each navigation section*/
+
+ nav a{
+  text-decoration: none;
+  color: black;
+}
+/*for the navigation label*/
+
+
+nav li{
+  display: inline-block;
+  background: #d0d0d0;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: black;
+}
+
+ p{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ p.cite{
+  text-align: left;
+  font-size: 75%;
+}
+
+h1{
+  text-align: center;
+  color: #008808;
+  font-size: 90px;
+  padding-top: 15px;
+}
+
+img{
+  width: 75%;
+  padding-bottom: 15px;
+}
+
+.gallery img{
+    width: 100%;
+}
+.fruit img{
+  opacity: .75;
+}
+
+.fruit img:hover{
+  opacity: 1;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+p.footer{
+  font-size: 75%;
+}
+
+p.photocred{
+  font-size:75%;
+}
+
+p.main_p{
+  text-align: center;
+}
+
+div.grid-container-dishes{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+       align-items: center;
+     }
+/*learned about align-items and justify-items from https://stackoverflow.com/questions/45536537/centering-in-css-grid*/
+.dishes{
+    font-size: 125%;
+}
+
+div.grid-container-sweets{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      align-items: center;
+}
+span.bold{
+      color:#008808;
+}
+.sweets{
+  font-size: 125%;
+
+/* Default mobile look */
+
+/* .gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  } */
+
+  /* div.grid-container-dishes{ */
+         /* display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+         align-items: center;
+       } */
+ /* div.grid-container-sweets{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr;
+         align-items: center;
+       } */
+
+/* Large screen look
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  } */
